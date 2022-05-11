@@ -35,4 +35,22 @@ button {
   border: 2px solid #24e;
 }
 
+.btn--twitter {
+  background-color: #2d8ceb;
+  cursor: pointer;
+  padding: 1rem 3rem;
+}
+
+.btn--facebook {
+  background-color: #3a5795;
+  cursor: pointer;
+  padding: 1rem 3rem;
+}
+
+.btn--send-mail {
+  background-color: #c96a27;
+  cursor: pointer;
+  padding: 1rem 3rem;
+}
+
 /*# sourceMappingURL=style.css.map */

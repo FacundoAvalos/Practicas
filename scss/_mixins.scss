@@ -1,0 +1,14 @@
+@mixin flexcenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;    
+}
+
+@mixin theme($ligth-theme: true) {
+    @if $ligth-theme {
+        background-color: $text-color;
+        color: $primary-color;
+    }
+    
+}
